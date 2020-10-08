@@ -1,0 +1,26 @@
+.pane2 {
+    -fx-background-color: #ffffff;
+}
+.pane1
+{
+   -fx-background-color: #d3d3d3;
+   /*#d3d3d3*/
+}
+.pane3
+{
+-fx-background-color: linear-gradient(to right top, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3);
+}
+.pane4{
+fx-background-image:url('drawing.svg');
+}
+.text1{
+
+}
+.button1{
+-fx-background-color: linear-gradient(to right top, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3);
+-fx-backround-radius:2em;
+}
+.button2{
+-fx-background-color: #ffffff;
+-fx-backround-radius:2em;
+}

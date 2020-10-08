@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="768.0" maxWidth="1366.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" styleClass="pane1" stylesheets="@mini.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="21.0" layoutY="25.0" prefHeight="600.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="30.0" layoutY="22.0" prefHeight="556.0" prefWidth="660.0" styleClass="pane3" stylesheets="@mini.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="56.0" layoutY="41.0" prefHeight="81.0" prefWidth="174.0" text="New here?" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="79.0" layoutY="135.0" prefHeight="39.0" prefWidth="128.0" text="Sign up and " textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="73.0" layoutY="166.0" text="get huge discounts on flight tickets." textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="89.0" fitWidth="56.0" layoutX="115.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon1.png" />
+                     </image>
+                  </ImageView>
+                  <Button alignment="CENTER" layoutX="120.0" layoutY="406.0" mnemonicParsing="false" styleClass="button2" stylesheets="@mini.css" text="SIGN UP">
+                     <font>
+                        <Font name="Microsoft YaHei Light" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="393.0" layoutY="22.0" maxWidth="254.0" prefHeight="511.0" prefWidth="254.0" style="-fx-background-radius: 1em;" styleClass="pane2" stylesheets="@mini.css" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="393.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="22.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="55.0" layoutY="35.0" prefHeight="81.0" prefWidth="205.0" text="Welcome back">
+                     <font>
+                        <Font name="Microsoft JhengHei" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="94.0" layoutY="152.0" prefHeight="25.0" prefWidth="128.0" text="Email/Username" textFill="#a7a7a7">
+                     <font>
+                        <Font name="Microsoft JhengHei Light" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="92.0" layoutY="276.0" opacity="0.2" style="-fx-border-style: hidden dotted hidden hidden;" />
+                  <Label alignment="CENTER" layoutX="114.0" layoutY="243.0" prefHeight="25.0" prefWidth="107.0" text="Password" textAlignment="RIGHT" textFill="#a7a7a7" />
+                  <TextField alignment="CENTER" layoutX="93.0" layoutY="187.0" opacity="0.2" styleClass="text1" stylesheets="@mini.css">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <Hyperlink layoutX="95.0" layoutY="327.0" text="Forgot password?">
+                     <padding>
+                        <Insets bottom="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </Hyperlink>
+                  <Button alignment="CENTER" layoutX="138.0" layoutY="403.0" mnemonicParsing="false" styleClass="button1" stylesheets="@mini.css" text="SIGN IN" textFill="WHITE" />
+               </children>
+               <padding>
+                  <Insets right="100.0" />
+               </padding>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

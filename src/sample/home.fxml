@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="67.0" prefWidth="700.0" style="-fx-background-color: linear-gradient(to right top, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3);" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="70.0" layoutY="9.0" text="ARS" textFill="WHITE" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="9.0">
+               <font>
+                  <Font name="Corbel" size="42.0" />
+               </font></Label>
+            <Button layoutX="1458.0" layoutY="15.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: white; -fx-background-radius: 1em;" text="Contact us" textFill="#8e66c8" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="134.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-contact-info-80.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="1291.0" layoutY="15.0" mnemonicParsing="false" onAction="#aboutus" prefHeight="17.0" prefWidth="111.0" style="-fx-background-color: white; -fx-background-radius: 1em;" text="About us" textFill="#8e66c8" AnchorPane.rightAnchor="198.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@about-us.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button defaultButton="true" layoutX="1114.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="111.0" style="-fx-background-color: white; -fx-background-radius: 1em;" text="Home" textFill="#8e66c8" AnchorPane.rightAnchor="375.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-home-24.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ImageView fitHeight="50.0" fitWidth="64.0" layoutX="6.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutY="67.0" prefHeight="700.0" prefWidth="1400.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="25.666666666666686" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="67.0">
+         <children>
+            <AnchorPane layoutX="984.0" layoutY="7.0" maxWidth="600.0" prefHeight="407.0" prefWidth="376.0" AnchorPane.bottomAnchor="-7.0" AnchorPane.rightAnchor="176.66666666666674" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="13.0" layoutY="118.0" prefHeight="105.0" prefWidth="426.0" text="Booking Flight tickets " textFill="#8e66c8" AnchorPane.leftAnchor="13.0">
+                     <font>
+                        <Font size="42.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" layoutX="78.0" layoutY="217.0" prefHeight="62.0" prefWidth="296.0" text="Made Easy and " textFill="#8e66c8" AnchorPane.leftAnchor="78.0">
+                     <font>
+                        <Font size="42.0" />
+                     </font></Label>
+                  <Label alignment="CENTER" layoutX="121.0" layoutY="291.0" prefHeight="62.0" prefWidth="198.0" text="Affordable" textFill="#8e66c8" AnchorPane.rightAnchor="120.33333333333331">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Button alignment="CENTER" layoutX="53.0" layoutY="466.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="135.0" style="-fx-background-color: linear-gradient(to right top, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3); -fx-background-radius: 1em;" text="SIGN IN/SIGN UP" textFill="WHITE" AnchorPane.leftAnchor="53.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Button alignment="CENTER" layoutX="259.0" layoutY="466.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="120.0" style="-fx-background-color: linear-gradient(to right top, #4568dc, #7266d2, #8e66c8, #a267bd, #b06ab3); -fx-background-radius: 1em;" text="BOOK FLIGHTS" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="416.0" fitWidth="562.0" layoutX="106.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@fli.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="477.0" text="Copyright © 2020  Group G5 All rights reserved" textFill="#9e9e9e" AnchorPane.bottomAnchor="5.666666666666668" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="224.0" />
+   </children>
+</AnchorPane>
